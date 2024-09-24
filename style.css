@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Maghfirea.ttf";
+  src: url(/fonts/Maghfirea.ttf);
+  font-style: normal;
+  font-weight: normal;
+  font-smoothing: subpixel-antialiased;  /*or subpixel-antialiased*/
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Maghfirea.ttf";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+main, canvas {
+  display: block;
+  /* background: url('assets/background-bw.png'); */
+  /* width: 100vw;
+  height: 100vh; */
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* margin: 4rem; */
+}
+
+.howto {
+  display: inline flex;
+  align-content: center;
+  width: 100vw;
+  height: auto;
+  justify-content: space-between; 
+  position: relative;
+  bottom: 0;
+  z-index: 10;
+
+  
+}
+h1 {
+  font-size: 2rem;
+  position: relative;
+  margin: 0;
+  width: auto;
+  height: auto;
+  z-index: 10;
+  text-align: center;
+  font-weight: normal;
+  align-self: center;
+}
+
+.prompts {
+  top: 0;
+  padding-top: 1.8rem;
+}
+.sentences {
+  text-align: center;
+  display: none;
+  max-width: 230px;
+  min-width: 212px;
+  transition: all 1s ease;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 0 3.6rem 1.8rem 3.6rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.spark-show {
+  transition: all 0.5s ease;
+}
