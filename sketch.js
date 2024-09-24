@@ -66,31 +66,31 @@ let flashOpacity;
 function preload() {
   bgImage = loadImage('assets/background-bw.png');
   heartModel = loadModel('/assets/heart-nospike.obj', true);
-  heartMaterial = loadImage('/assets/broken glass.png', true);
+  heartMaterial = loadImage('/assets/broken-glass.png', true);
 
-  ropeModel1 = loadModel('/assets/rope 1.obj', true);
-  ropeModel2 = loadModel('/assets/rope 2.obj', true);
-  ropeModel3 = loadModel('/assets/rope 3.obj', true);
-  ropeModel4 = loadModel('/assets/rope 4.obj', true);
-  ropeModel5 = loadModel('/assets/rope 5.obj', true);
+  ropeModel1 = loadModel('/assets/rope1.obj', true);
+  ropeModel2 = loadModel('/assets/rope2.obj', true);
+  ropeModel3 = loadModel('/assets/rope3.obj', true);
+  ropeModel4 = loadModel('/assets/rope4.obj', true);
+  ropeModel5 = loadModel('/assets/rope5.obj', true);
   ropeMaterial = loadImage('/assets/rope-texture-1.jpeg', true);
   ropeModels = [ropeModel1, ropeModel2, ropeModel3, ropeModel4, ropeModel5];
 
-  sparkModel1 = loadModel('/assets/spark 1.obj', true);
-  sparkModel2 = loadModel('/assets/spark 2.obj', true);
-  sparkModel3 = loadModel('/assets/spark 3.obj', true);
-  sparkModel4 = loadModel('/assets/spark 4.obj', true);
-  sparkModel5 = loadModel('/assets/spark 5.obj', true);
+  sparkModel1 = loadModel('/assets/spark1.obj', true);
+  sparkModel2 = loadModel('/assets/spark2.obj', true);
+  sparkModel3 = loadModel('/assets/spark3.obj', true);
+  sparkModel4 = loadModel('/assets/spark4.obj', true);
+  sparkModel5 = loadModel('/assets/spark5.obj', true);
 
   sparkModels = [sparkModel1, sparkModel2, sparkModel3, sparkModel4, sparkModel5];
 
   // Preload background images
   backgrounds = [
     loadImage('assets/background-bw.png'),
-    loadImage('assets/background 1.png'),
-    loadImage('assets/background 2.png'),
-    loadImage('assets/background 3.png'),
-    loadImage('assets/background 4.png'),
+    loadImage('assets/background1.png'),
+    loadImage('assets/background2.png'),
+    loadImage('assets/background3.png'),
+    loadImage('assets/background4.png'),
     loadImage('assets/background-pink.png')
   ];
 
