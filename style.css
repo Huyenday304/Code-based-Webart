@@ -3,7 +3,7 @@
   src: url(/fonts/Maghfirea.ttf);
   font-style: normal;
   font-weight: normal;
-  font-smoothing: subpixel-antialiased;  /*or subpixel-antialiased*/
+  font-smoothing: subpixel-antialiased; 
   text-rendering: optimizeLegibility;
 }
 
@@ -27,15 +27,11 @@ body {
 
 main, canvas {
   display: block;
-  /* background: url('assets/background-bw.png'); */
-  /* width: 100vw;
-  height: 100vh; */
   margin: 0;
   padding: 0;
   position: absolute;
   top: 0;
   left: 0;
-  /* margin: 4rem; */
 }
 
 .howto {
@@ -71,7 +67,6 @@ h1 {
   display: none;
   max-width: 230px;
   min-width: 212px;
-  transition: all 1s ease;
 }
 
 h2 {
@@ -81,6 +76,3 @@ h2 {
   margin: 0;
 }
 
-.spark-show {
-  transition: all 0.5s ease;
-}
