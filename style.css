@@ -67,6 +67,7 @@ h1 {
   display: none;
   max-width: 230px;
   min-width: 212px;
+  transition: all 1s ease;
 }
 
 h2 {
@@ -76,3 +77,6 @@ h2 {
   margin: 0;
 }
 
+.spark-show {
+  transition: all 0.5s ease;
+}
